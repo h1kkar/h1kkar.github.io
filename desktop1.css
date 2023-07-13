@@ -69,13 +69,16 @@
   border-bottom-right-radius: 14px;
 }
 @media(max-width: 479px) {
+  .desktop1-desktop1 {
+    height: auto;
+  }
   .desktop1-text {
     top: 64px;
-    font-size: 40px;
+    font-size: 32px;
   }
   .desktop1-text1 {
-    top: 130px;
-    font-size: 17px;
+    top: 125px;
+    font-size: 15px;
   }
   .desktop1-container1 {
     height: 220px;
