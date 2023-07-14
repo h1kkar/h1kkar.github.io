@@ -1,71 +1,110 @@
-<!DOCTYPE html>
-<html lang="english">
-  <head>
-    <title>exported project</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <meta property="twitter:card" content="summary_large_image" />
-
-    <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
-    </style>
-    <style data-tag="default-style-sheet">
-      html {
-        font-family: Inter;
-        font-size: 16px;
-      }
-
-      body {
-        font-weight: 400;
-        font-style:normal;
-        text-decoration: none;
-        text-transform: none;
-        letter-spacing: normal;
-        line-height: 1.15;
-        color: var(--dl-color-gray-black);
-        background-color: var(--dl-color-gray-white);
-
-      }
-    </style>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
-      data-tag="font"
-    />
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <div>
-      <link href="./desktop1.css" rel="stylesheet" />
-
-      <div class="desktop1-container">
-        <div class="desktop1-desktop1">
-          <p class="desktop1-text">Hi, I’m h1kkar</p>
-          <p class="desktop1-text1">
-            <span>
-              <span>Beginner programmer</span>
-              <br />
-              <span>💾 Bash, 🌙 Lua, 🐹 Go, 🦀 Rust</span>
-            </span>
-          </p>
-          <div class="desktop1-container1"></div>
-        </div>
-      </div>
-    </div>
-  </body>
+<html lang="ru">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+	<title>хиккар.гигхаб.ио</title>
+	<meta name="og:title" content="хиккар.гигхаб.ио">
+	<meta name="twitter:title" content="хиккар.гигхаб.ио">
+	<meta name="description" content="Это сайт h1kkar, тут можно посмотреть проекты, а также ссылки на соцсети">
+	<meta name="og:description" content="Это сайт h1kkar, тут можно посмотреть проекты, а также ссылки на соцсети и также донат">
+	<meta name="twitter:description" content="Это сайт h1kkar, тут можно посмотреть проекты, а также ссылки на соцсети и также донат">
+	<link rel="shortcut icon" href="/images/face.png" type="image/png">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">
+	</script>
+	<script src="js/konami.js">
+	</script>
+	<link href="index.css" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js">
+	</script>
+</head>
+<body>
+	<div id="all">
+		<div id="loader">
+			<span class="color">Загрузка..</span>
+		</div>
+		<div id="navigation-content">
+			<a class="lang" href="//h1kkar.github.io/en"><img alt="logo" src="images/lang.svg" width="48" height="48"></a>
+			<div class="navigation-close">
+				<span class="close-first"></span> <span class="close-second"></span>
+			</div>
+			<div class="navigation-links">
+				<a data-text="Home" href="#" id="home-link">Главная</a> <a data-text="Projects" href="#" id="portfolio-link">Проекты</a>
+			</div>
+		</div>
+		<div id="navigation-bar">
+			<div class="menubar">
+				<span class="first-span"></span> <span class="second-span"></span> <span class="third-span"></span>
+			</div>
+		</div>
+		<div id="header">
+			<div id="particles"></div>
+			<div class="social-media-links">
+				<a href="//h1kkar.github.io/p/tg" target="_blank"><img alt="Telegram" class="social-media" height="48" src="images/telegram.svg" width="48"></a> <a href="//h1kkar.github.io/p/vk" target="_blank"><img alt="VK" class="social-media" height="48" src="images/vk.svg" width="48"></a> <a href="//h1kkar.github.io/p/inst" target="_blank"><img alt="Instagram" class="social-media" height="48" src="images/instagram.svg" width="48"></a> <a href="//h1kkar.github.io/p/gh" target="_blank"><img alt="Github" class="social-media" height="48" src="images/github.svg" width="48"></a>
+			</div>
+			<div class="header-content">
+				<div class="header-content-box">
+					<div class="firstline">
+						<span class="color">h1kkar.github.io</span>
+					</div>
+					<div class="secondline">
+						Я <span class="txt-rotate color" data-period="1200" data-rotate='["h1kkar, мне 16 лет", "начинающий программист", "люблю играть в майнкрафт", "сам не знаю чего хочу", "стыбзил этот сайт у виедса"]'></span> <span class="slash">|</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="portfolio">
+		<div id="loader"></div>
+			<div class="portfolio-header">
+				<span class="color">Мои</span> Проекты <span class="header-caption">Пара начатых, <span class="color">но лишь один до ума доделанный</span></span>
+			</div>
+			<div class="portfolio portfolio-first">
+				<div class="portfolio-image"><img alt="portfolio-first" src="images/pls.png"></div>
+				<div class="portfolio-text">
+					<h2>pls</h2>
+					<p>pls - относительно небольшой и легкий скрипт, облегчающий часть задач за ПК на Linux. Написан на Rust, компилируется благодаря Cargo.</p>
+					<div class="button">
+						<a href="//h1kkar.github.io/p/pls"><button><span class="index">Исходный код<i class="gg-arrow-right"></i></span></button></a>
+					</div>
+				</div>
+			</div>
+			<div id="portfolio-content">
+				<div class="portfolio portfolio-second">
+					<div class="portfolio-image"><img alt="Firmware for Mi Band 3" src="images/dots.png"></div>
+					<div class="portfolio-text">
+						<h2>.files</h2>
+						<p>.files - мои конфиги и скрипты, которые позволяют красиво (имхо) настроить ваш ПК на Linux.</p>
+						<div class="button">
+							<a href="//h1kkar.github.io/p/dots"><button><span class="index">Исходный код<i class="gg-arrow-right"></i></span></button></a>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio portfolio-third">
+					<div class="portfolio-image"><img alt="portfolio-third" src="images/plsf.png"></div>
+					<div class="portfolio-text">
+						<h2>plsfetch</h2>
+						<p>plsfetch - маленький fetch, выводящий системную информацию, написан на Go.</p>
+						<div class="button">
+							<a href="//h1kkar.github.io/p/plsf"><button><span class="index">Исходный код<i class="gg-arrow-right"></i></span></button></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery.min.js">
+	</script> 
+	<script src="js/particles.js">
+	</script> 
+	<script src="js/particles.min.js">
+	</script> 
+	<script src="js/index.js">
+	</script>
+	<style>body { background: url('images/bg.jpg') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover;}</style>
+	<script>
+	particlesJS("particles", {"particles":{"number":{"value":120,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":true,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":true,"speed":0,"size_min":0.1,"sync":false}},"line_linked":{"enable":false,"distance":0,"color":"#ffffff","opacity":0.24463576890600452,"width":1.2626362266116362},"move":{"enable":true,"speed":3,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":false,"mode":"grab"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});
+	</script>
+</body>
 </html>
