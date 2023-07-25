@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["config"],"mod":["alt_conf"],"struct":["Conf"]};
