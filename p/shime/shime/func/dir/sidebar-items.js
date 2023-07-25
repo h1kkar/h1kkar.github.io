@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"fn":["absolute_path","back","go","go_home","home_dir","next"]};

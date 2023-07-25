@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"fn":["exec","line"],"mod":["dir","dye","git","lang","sudo","time"]};
